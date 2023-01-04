@@ -1,0 +1,26 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Challenges to do</title>
+        <link  rel="stylesheet" href="{%static 'style/style.css' %}"/>
+    </head>
+    <body>
+        <div>
+            <a href = "{%url 'index'%}">Months</a>
+            <a href = "{%url 'index_week'%}">Weeks</a>
+        </div>
+        <div class='view'>
+            <ul class='circles'>
+              <li class='h1 item'></li>
+              <li class='h2 item'></li>
+              <li class='h3 item'></li>
+              <li class='h4 item'></li>
+              <li class='h5 item'></li>
+              <li class='h6 item'></li>
+              <li class='h7 item'></li>
+            </ul>
+          </div>
+    </body>
+</html>
